@@ -70,6 +70,7 @@ class Rectangle:
         area = self.width * self.height
         print(f"Your Rectange has an area of {area} units^2")
         return area
+        
     def perimeter_calc(self):
         perimeter = 2*self.width + 2*self.height
         print(f"Your Rectange has a perimeter of {perimeter}")
