@@ -87,7 +87,7 @@ class LibraryApp:
 
         checkout = tk.Toplevel(root)
         checkout.title("Checkout book")
-        checkout.geometry("300x150")
+        checkout.geometry("30   0x150")
 
         tk.Label(checkout, text="Checkout a book:", font=("Arial", 12)).pack(pady=5)
 
